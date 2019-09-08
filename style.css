@@ -1,0 +1,21 @@
+.nav {
+    background: #b8d8d8; 
+    display: flex; 
+}
+
+body {
+  background: #eef5db; 
+}
+
+.footer {
+    background: #4f6367;
+}
+
+
+p, li, h1, h2, h3, h4 {
+    color: #4f6367; 
+}
+
+.text-white {
+    color: #eef5db; 
+}
