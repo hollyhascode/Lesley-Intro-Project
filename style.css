@@ -1,4 +1,4 @@
-.nav {
+ul {
     background: #b8d8d8; 
     display: flex; 
 }
@@ -14,7 +14,9 @@ body {
 
 p, li, h1, h2, h3, h4 {
     color: #4f6367; 
+    font-family: 'Playfair Display', serif;
 }
+
 
 .text-white {
     color: #eef5db; 
