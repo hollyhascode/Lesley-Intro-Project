@@ -1,9 +1,14 @@
 ul {
-    background: #b8d8d8; 
+    background: hsl(180, 29%, 78%); 
     display: flex; 
+    justify-content: center; 
+    
+}
+.nav a {
+    text-decoration: none; 
 }
 
-body {
+.main {
   background: #eef5db; 
 }
 
