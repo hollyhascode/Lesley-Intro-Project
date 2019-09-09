@@ -1,51 +1,68 @@
-<!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Holly Williford's Portfolio</title>
-
-<!--Libraries-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css"> 
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+  .about-flex {
+  display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 95%; 
+    margin: 5% auto; 
+  }
+  .about-flex-item img {
+    width: 50%; 
+    max-width: 400px; 
+    border-radius: 4px 140px 70px 100px; 
+    padding-right: 5%; 
+  }
+  
+  .about-flex-item {
+  width: 50%; 
+  
+  }
+  
+  </style> 
+  
+  <link rel="stylesheet" type="text/css" href="https://hollyhascode.github.io/mothercodesbest/css/main.css">
 </head>
+<body> 
 
-<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/about-holly.html">About Me</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/mothercodesbest/resources.html">Resources</a>
+  <a href="#">My Blog</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/projects">Projects</a>
+</div>
+<div>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 
+  <img style="height: 100px;" src="https://hollyhascode.github.io/mothercodesbest/images/menu-nav-cup.png">
+  
+  </span>
+ <div class="about-flex"> 
+<div class="about-flex-item"> 
+ <img src="https://hollyhascode.github.io/mothercodesbest/images/mothercodesbest.jpg"> 
+  </div> 
+<div class="about-flex-item"> 
+<h1>About Mother Codes Best Goofball Extraordinaire</h1> 
 
-<!--Navigation Menu-->
-   <div class="nav">
-    <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="portfolio.html"><li>Portfolio</li></a>
-    </ul>
-   </div>
-<div class="main">
-
-        <h1>About Holly Williford</h1>
-</div>
-<!--Footer-->
-<div class="footer text-white"> 
-<div class="col-md-6">
-        <h2>Contact Information</h2>
-        <p>Email: hollyhastoes@gmail.com</p>
-        <p>Phone: 985-768-9298</p>
-</div>
-<div class="col-md-6">
-        <h2>My Favorites</h2>
-        <p>Stackoverflow</p>
-       
-        <p>Free Code Camp</p>
-        
-</div>
-</div>
-
+<p>I am front end web developer wtih a background in digital marketing. Currently, I'm studying UX at Lesley University
+where i'm growing my soft skills and privately I spend time working on my technical skills.</p> 
+<p>My hopes for this blog aren't to become a hot shot entrepreneur selling t-shirts, courses or whatever. I just want a place to document 
+my experience as a coder, mom and student. You know sort of a portfolio with a title to scare of any employers who don't want to hire a mum!</p> 
+<p>I'm so thankful for the amount of resources provided by all the dedicated bloggers, teachers and companies out there, I won't even pretend 
+to compete. I just love the subjective and objective challenges of web developement for companies and want to share some things I learn (often the hard way) along the way.
+(Plus, us New Orleaneans are too busy doing things like Mardi Gras, Jazz Fest, etc.</p>
+<p>Cheers! Here is to another year of foibles, bugs and development.</p> 
+  </div> 
+  </div> 
+<Script> 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script> 
 </body>
 </html>
-
-
-
-
-
-
-
